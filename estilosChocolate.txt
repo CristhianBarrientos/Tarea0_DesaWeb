@@ -4,22 +4,20 @@
 
 body {
     margin: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f1ee; 
 }
 
 /* una sola configuracion para todos lo sinputs */
 input {
     border-radius: 20px;
-    background-color: rgb(42, 42, 42);
+    background-color: #4a3728; 
     font-style: italic;
-    width: auto;
-    /* Largo */
-    height: 2vw;
-    /* alto */
+    width: auto; /* Largo */
+    height: 2vw; /* alto */
     margin: 2vh 2vh 0;
     padding: 15px;
-    color: white;
-    box-shadow: 6px 7px 8px #8f8f8f;
+    color: #f5f3f0; 
+    box-shadow: 6px 7px 8px #d4c4b0; 
 }
 
 input:hover {
@@ -28,7 +26,7 @@ input:hover {
 }
 
 input::placeholder {
-    color: rgba(255, 255, 255, 0.689);
+    color: rgba(245, 243, 240, 0.689);  
     font-style: bold;
 }
 
@@ -39,15 +37,15 @@ input::placeholder {
     padding: 10px;
     width: 95%;
     align-self: center;
-    background-color: rgb(42, 42, 42);
-    color: white;
+    background-color: #4a3728; 
+    color: #f5f3f0; 
     font-style: bold;
-    box-shadow: 6px 7px 8px #8f8f8f;
+    box-shadow: 6px 7px 8px #d4c4b0;  
     max-width: 95%;
 }
 
 textarea::placeholder {
-    color: rgba(255, 255, 255, 0.689);
+    color: rgba(245, 243, 240, 0.689);  
 }
 
 textarea:hover {
@@ -63,23 +61,22 @@ textarea:hover {
     height: 4vw;
     padding: 10px;
     align-self: center;
-    color: white;
+    color: #f5f3f0; 
     font-size: 3vh;
-    background-color: rgb(42, 42, 42);
-    box-shadow: 6px 7px 8px #8f8f8f;
+    background-color: #6b4e3d;  
+    box-shadow: 6px 7px 8px #d4c4b0;  
 }
 
 #btnEnviar:hover {
-    background-color: #242424bc;
+    background-color: #6b4e3dc0;  
     transform: scale(1.03);
     transition: transform 0.2s ease;
 }
 
 #btnEnviar:active {
-    background-color: #030004;
-    transform: scale(0.98);
+    background-color: #6b4e3d;  
+    transform: scale(1);
     transition: transform 0.1s ease;
-    color: gray;
 }
 
 
@@ -88,7 +85,7 @@ textarea:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(235, 234, 234);
+    background-color: #e8ddd4;  
     padding: 20px;
     border-radius: 10px;
     margin: 1vw;
@@ -99,7 +96,7 @@ textarea:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(235, 234, 234);
+    background-color: #e8ddd4;  
     margin: 1vw;
     padding: 15px;
     border-radius: 10px;
@@ -109,7 +106,7 @@ textarea:hover {
 .tablaDatos {
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 234, 234);
+    background-color: #e8ddd4;  
     margin: 1vw;
     padding: 15px;
     border-radius: 10px;
@@ -119,7 +116,7 @@ textarea:hover {
 .inputsDatosPersonales {
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 234, 234);
+    background-color: #e8ddd4; 
     margin: 1vw;
     padding: 15px;
     border-radius: 10px;
@@ -128,8 +125,8 @@ textarea:hover {
 .inputsDatosPersonales h1 {
     align-self: center;
     font-style: italic;
-    color: #4e4b4e;
-    /* background-color: #000; */
+    color: #5d4037; 
+    /* background-color: #4a3728; */
     /* box-shadow: 3px 10px 25px rgba(0, 0, 0, 0.1); */
 
 }
@@ -145,7 +142,7 @@ textarea:hover {
 .contenedorCentrado h2 {
     margin: 0;
     font-size: 20px;
-    color: #555;
+    color: #5d4037; 
 }
 
 /* para centrar los inputs nada mas */
@@ -161,13 +158,13 @@ textarea:hover {
 .persona {
     width: 80px;
     height: 80px;
-    background-color: #ccc;
+    background-color: #d4c4b0; 
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 36px;
-    color: white;
+    color: #f5f3f0; 
     margin-bottom: 10px;
 }
 
@@ -175,10 +172,10 @@ textarea:hover {
 .tabla {
     width: 100%;
     border-collapse: collapse;
-    background-color: white;
+    background-color: #f5f3f0; 
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(74, 55, 40, 0.1); 
 }
 
 .tabla:hover {
@@ -186,10 +183,10 @@ textarea:hover {
     transition: transform 0.2s ease;
 }
 
-/* Encabezado de la tabla */
+/* se pueden colocar estrilos a un th, entonces se coloca un color adecuao al ambiente para el titulo */
 .tabla th {
-    background: rgb(42, 42, 42);
-    color: white;
+    background: #5d4037; 
+    color: #f5f3f0; 
     font-weight: 600;
     font-size: 18px;
     padding: 20px 15px;
@@ -199,22 +196,21 @@ textarea:hover {
     border: none;
 }
 
-/* Celdas de datos */
+/* las celdas tambien tienen para estilos, entonces se coloca ahora si, uniformemente mitad y mitad las columnas para que se vea mejor, se atenuan los bordes para que no se vea puro excel xd y por ultimo se coloca el iunterior de un color que combine */
 .tabla td {
     width: 50%;
     padding: 15px 20px;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    color: #2c3e50;
-    background-color: #b3b3b3;
+    color: #4a3728; 
+    background-color: #d4c4b0; 
     font-style: bold;
     /* border: none; */
-    border-right: 1px solid #79787846;
-    border-bottom: 1px solid #79787846;
+    border-right: 1px solid #c4b59ff0; 
+    border-bottom: 1px solid #c4b59ff5; 
 }
 
-/* Menú de navegación */
 .menu {
     margin-top: 5px;
 }
@@ -222,13 +218,13 @@ textarea:hover {
 .menu a {
     margin-top: 5px;
     text-decoration: none;
-    color: #6a6a6a;
+    color: #8d6e63; 
     font-size: 14px;
 }
 
 .menu a:hover {
     text-decoration: underline;
-    color: #000;
+    color: #4a3728; 
 }
 
 
