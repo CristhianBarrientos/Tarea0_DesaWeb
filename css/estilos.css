@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+input {
+    border-radius: 20px;
+    background-color: rgb(13, 13, 13);
+    font-style: italic;
+    width: auto; /* Largo */
+    height: 2vw; /* alto */
+    margin: 2vh 2vh 0;
+    padding: 15px;   
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.689);
+    font-style: bold;
+}
+
+#txtMensaje {
+    border-radius: 10px;
+    
+}
+
+.btnEnviar{
+    margin-top: 10px;
+    border-radius: 20px;    
+}
+
+
+/* segmento para estilar los divs o contenedores de cada seccion */
+.lenguajesProgra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 234, 234);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1vw;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 234, 234);
+    margin: 1vw;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tablaDatos {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 234, 234);
+    margin: 1vw;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.inputsDatosPersonales {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 234, 234);
+    margin: 1vw;
+    padding: 15px;
+    border-radius: 10px;    
+}
+
+.contenedorCentrado {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* aqui acaba el segmento de estilados de divs */
+
+.listaPrinc {
+    list-style-type: square;
+}
+
+.listaInfo {
+    list-style-type: circle;
+}
+
+
+.persona {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contenedorCentrado h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #555;
+}
+
+.inputsCentrados {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.menu {
+    margin-top: 5px;
+}
+
+.menu a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.tabla {
+    width: 100%;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Contenedor para los datos en lista de los lenguajes de programacion -->
+    <div class="lenguajesProgra">
+        <div class="contenedorCentrado">
+            <div class="persona">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <h2>Cristhian Barrientos</h2>
+            <div class="menu">
+                <a href="#">Inicio</a> |
+                <a href="#">Php</a> |
+                <a href="#">.Net</a> |
+                <a href="#">Java</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="infoCentrado">
+            <h3> Lenguajes de Programacion </h4>
+                <ol class="listaPrinc">
+                    <li>Paginas Web
+                        <ol class="listaInfo">
+                            <li>JSP</li>
+                            <li>ASPX</li>
+                            <li>PHP</li>
+                        </ol>
+                    </li>
+                    <li>Aplicaciones
+                        <ol class="listaInfo">
+                            <li>JAVA</li>
+                            <li>VISUAL BASIC</li>
+                            <li>C#</li>
+                        </ol>
+                    </li>
+                </ol>
+        </div>
+    </div>
+
+    <div class="tablaDatos">
+        <table class="tabla" ; border="1px">
+            <!-- <caption>Programacion Web</caption> -->
+            <tr>
+                <th colspan="2">Programacion Web</th>
+            </tr>
+            <tr>
+                <td>ASP</td>
+                <td>JSP</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>RUBY</td>
+            </tr>
+            <tr>
+                <td>PYTHON</td>
+                <td>GO</td>
+            </tr>
+        </table>
+    </div>
+    <div class="inputsDatosPersonales">
+        <div class="inputsCentrados">
+            <input type="text" id="inptNombre" placeholder="Ingrese sus Nombres">
+            <input type="text" id="inptApellido" placeholder="Ingrese sus Apellidos">
+            <input type="text" id="inputTelefono" placeholder="Ingrese su Numero de Telefono">
+            <input type="email" id="inputCorreo" placeholder="Ingresa tu Correo Electronico">
+            <input type="date" id="inputFecha" placeholder="Ingresa tu fecha de Nacimiento">
+            <!-- <input type="text" id="" placeholder="Ingrese aqui su Mensaje"> -->
+            <textarea id="txtMensaje">Escribe Aqui tu Mensaje</textarea>
+            <button id="btnEnviar">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        // Redirige al final de la página cuando se carga
+        window.onload = function () {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth' // Desplazamiento suave
+            });
+        };
+    </script>
+</body>
+
+</html>
