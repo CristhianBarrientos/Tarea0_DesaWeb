@@ -24,13 +24,14 @@ input {
     box-shadow: 6px 7px 8px #8f8f8f;
 }
 
+input:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s;
+}
+
 input::placeholder {
     color: rgba(255, 255, 255, 0.689);
     font-style: bold;
-}
-
-textarea::placeholder {
-    color: rgba(255, 255, 255, 0.689);
 }
 
 #txtMensaje {
@@ -44,7 +45,15 @@ textarea::placeholder {
     font-style: bold;
     box-shadow: 6px 7px 8px #8f8f8f;
     max-width: 95%;
+}
 
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.689);
+}
+
+textarea:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s;
 }
 
 #btnEnviar {
@@ -58,7 +67,18 @@ textarea::placeholder {
     font-size: 3vh;
     background-color: #210531;
     box-shadow: 6px 7px 8px #8f8f8f;
+}
 
+#btnEnviar:hover {
+    background-color: #210531c0;
+    transform: scale(1.03) ;
+    transition: transform 0.2s ease;
+}
+
+#btnEnviar:active {
+    background-color: #210531;
+    transform: scale(1);
+    transition: transform 0.1s ease;
 }
 
 /* segmento para estilar los divs o contenedores de cada seccion */
